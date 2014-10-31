@@ -1,0 +1,45 @@
+.header, .top-line, .bheader-menu {
+    width: 100%;
+}
+
+.top-line {
+    background-color: #98b827;
+    height: 3px;
+}
+
+.bheader-menu {
+    background-color: #FFF;
+    height: 25px;
+    border-style: solid;
+    border-width: 0;
+    border-color: #cacaca;
+    border-bottom-width: 1px;
+}
+
+.bleft-header-menu {
+    float: left;
+    margin-left: 5px;
+}
+
+.bright-header-menu {
+    float: right;
+    margin-right: 5px;
+}
+
+.bright-header-menu > ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.bright-header-menu > ul > li {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.bright-header-menu > ul > li > a {
+    color: #797979;;
+}
+
+.bright-header-menu > ul > li > a:hover {
+    color: #98B827;
+}
