@@ -9,20 +9,22 @@
 
 #left-arr, #right-arr {
     background: red;
-    height: 20px;
-    width: 20px;
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: -50%;
-    margin-top: -10px;
+    margin-top: -40px;
     cursor: pointer;
 }
 
 #left-arr {
-     left: -40px;
+    left: -40px;
+    background: url(../images/slides_buttons.png) no-repeat -1px 0;
 }
 
 #right-arr {
-    left: 980px;
+    left: 920px;
+    background: url(../images/slides_buttons.png) no-repeat -82px 0;
 }
 
 #slider-images {
