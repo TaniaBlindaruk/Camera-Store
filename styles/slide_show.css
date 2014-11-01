@@ -1,4 +1,26 @@
-.slide-show {
-    height: 200px;
+.slide_show {
+    height: 342px;
     background: #ffebb6;
+}
+
+.arrow {
+    position: relative;
+    width: 960px;
+}
+
+.left_arr, .right_arr {
+    background: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.left_arr {
+     left: -40px;
+}
+
+.right_arr {
+    left: 980px;
 }
