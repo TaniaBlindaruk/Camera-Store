@@ -1,4 +1,4 @@
-.header, .top-line, .bheader-menu {
+.top-line, .bheader-menu {
     width: 100%;
 }
 
@@ -63,7 +63,7 @@ span[class="upper-contact-menu"] {
     height: 58px;
 }
 
-.blogo-and-search-va, .blogo-and-search {
+.blogo-and-search-va {
     width: 100%;
 }
 

@@ -7,6 +7,10 @@ body {
     font-size: 10.5pt;
 }
 
+body > div {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: #797979;
