@@ -73,16 +73,20 @@
 }
 
 .data{
-    height: 400px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 .cell{
+
+    float: left;
+    height: 342px;
     margin: 0;
     display: inline-block;
-    height: 100%;
     width: 222px;
     background-color: #FFF;
     margin-left: 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
 }
 .cell:first-child{
     margin: 0;
@@ -106,6 +110,7 @@
     left: 15px;
 }
 .pesso_cart{
+    padding: 0 15px;
     width: 192px;
     display: table-cell;
     vertical-align: middle;
@@ -136,4 +141,33 @@
     background: linear-gradient(to bottom, #9b9b9b 0%,#838383 50%,#9b9b9b 100%);
     padding: 5px 10px;
     color: white;
+
+    text-transform: uppercase;
+}
+.table_pesso_cart{
+    display: table;
+    height: 40px;
+
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+.data_info{
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px;
+    overflow: hidden;
+    height: 80px;
+}
+.cell>a{
+    margin-top: 40px;
+    padding: 15px;
+    color: #98B827;
+}
+.cell>a>span{
+    color: #000;
+}
+.not{
+    display: none;
 }
