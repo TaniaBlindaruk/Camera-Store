@@ -8,7 +8,7 @@
     width: 960px;
 }
 
-.left_arr, .right_arr {
+#left-arr, #right-arr {
     background: red;
     height: 20px;
     width: 20px;
@@ -17,10 +17,10 @@
     margin-top: -10px;
 }
 
-.left_arr {
+#left-arr {
      left: -40px;
 }
 
-.right_arr {
+#right-arr {
     left: 980px;
 }
