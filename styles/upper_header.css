@@ -19,6 +19,7 @@
 .bleft-header-menu {
     float: left;
     margin-left: 5px;
+    line-height: 25px;
 }
 
 .bright-header-menu {
@@ -26,20 +27,102 @@
     margin-right: 5px;
 }
 
-.bright-header-menu > ul {
+.bright-header-menu > ul, .social-buttons > ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
-.bright-header-menu > ul > li {
+.bright-header-menu > ul > li, .social-buttons > ul > li {
     display: inline-block;
     line-height: 25px;
 }
 
-.bright-header-menu > ul > li > a {
-    color: #797979;;
+.bleft-header-menu > * > a {
+    color: #98B827;
 }
 
-.bright-header-menu > ul > li > a:hover {
-    color: #98B827;
+span[class="upper-contact-menu"] {
+    margin-left: 30px;
+}
+
+.right-header-menu-delim {
+    margin: 0 5px;
+}
+
+.blogo-and-search {
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+
+.blogo-and-search-va {
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    height: 58px;
+}
+
+.blogo-and-search-va, .blogo-and-search {
+    width: 100%;
+}
+
+.blogo {
+    float: left;
+}
+
+.bsearch {
+    float: right;
+}
+
+.bsearch > * {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.bsearch > form > * {
+    border: 1px solid #E7E7E7;
+    border-bottom-color: #D9D9D9;
+}
+
+.bsearch > form {
+    position: relative;
+    top: 14px;
+}
+
+.blogo, .bsearch {
+    height: 100%;
+}
+
+#searchInput {
+    border-radius: 5px 0 0 5px;
+    height: 28px;
+    width: 170px;
+}
+
+#searchButton {
+    margin: 0;
+    margin-left: -7px;
+    height: 40px;
+    width: 40px;
+}
+
+#searchInput, #searchButton {
+    padding: 5px;
+}
+
+.top-menu-button, .social-buttons > ul > li {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.social-buttons > ul > li {
+    margin-left: 3px;
+    border: 1px solid #E7E7E7;
+    border-bottom-color: #D9D9D9;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
 }
