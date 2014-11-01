@@ -1,8 +1,13 @@
+.center_head {
+    width: 100%;
+    height: 47px;
+}
+
 .center_head_text{
     background-color: #FFF;
     text-transform: uppercase;
     color: #000;
-    height: 47px;
+    height: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border: 1px solid #eee;
@@ -14,6 +19,7 @@
 .bold{
     font-weight: bold;
 }
+
 h2 button{
     font-family: "MuseoSans";
     margin: 0;

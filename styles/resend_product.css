@@ -1,14 +1,62 @@
-.resendProduct {
-
+.resend_product {
+    height: 400px;
 }
-.titel_border{
+
+.bh3_header {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
     position: relative;
+}
+
+.bname {
+    display: table;
+    height: 40px;
+    width: 100%;
+}
+
+.name_line {
+    background: url(../images/head_menu_bg.png) repeat 0 0;
+    width: 100%;
+    height: 10px;
+}
+
+.header_data, .bname, .bh3, .name_button {
+    height: 40px;
+}
+
+.header_data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bh3 {
+    float: left;
+    line-height: 40px;
+}
+
+.bh3, .name_button {
+    background: #FFF;
+    padding: 0 4px;
+}
+
+.name_button {
+    float: right;
+}
+
+/*.titel_border{
+    position: relative;
+    background: red;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
 }
 .img_border{
     background: url(../images/head_menu_bg.png) repeat 0 0;
     width: 100%;
     height: 10px;
-    float: left;
 }
 .text_border{
     display: inline-block;
@@ -39,7 +87,7 @@
 
     text-align: center;
     color: white;
-}
+}*/
 
 /*<div class="titel_border">*/
 /*<div class="img_border"></div>*/
