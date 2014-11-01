@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Oswald-Bold; /* Имя шрифта */
+    src: url(oswald/Oswald-Bold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Oswald-Light; /* Имя шрифта */
+    src: url(oswald/Oswald-Light.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Oswald-Regular; /* Имя шрифта */
+    src: url(oswald/Oswald-Regular.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Oswald-Stencil; /* Имя шрифта */
+    src: url(oswald/Oswald-Stencil.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: MuseoSans; /* Имя шрифта */
+    src: url(museo-sans-cyrl/MuseoSansCyrl_1.otf); /* Путь к файлу со шрифтом */
+}

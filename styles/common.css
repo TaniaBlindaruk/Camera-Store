@@ -40,3 +40,18 @@ A[target="_blank"] {
     margin: 0 auto;
     position: relative;
 }
+h2{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-family: "Oswald-Regular";
+}
+h3{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: "MuseoSans";
+}

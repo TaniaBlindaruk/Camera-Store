@@ -1,31 +1,24 @@
-.resendProduct {
-
-}
-.titel_border{
-    position: relative;
-}
-.img_border{
-    background: url(../images/head_menu_bg.png) repeat 0 0;
-    width: 100%;
-    height: 10px;
-    float: left;
-}
-.text_border{
-    display: inline-block;
-    background-color: #FAFAFA;
-    float: left;
-}
-.buttons_products{
-    float: right;
-}
-.button_products{
-
-    width: 20px;
-    height: 20px;
-    display: inline;
+.center_head_text{
+    background-color: #FFF;
     text-transform: uppercase;
-    margin: 1px;
-    padding: 1px;
+    color: #000;
+    height: 47px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #eee;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 30px;
+    font-size: 23px;
+    margin-bottom: 36px;
+}
+.bold{
+    font-weight: bold;
+}
+h2 button{
+    font-family: "MuseoSans";
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 30px;
     vertical-align: middle;
     border-radius: 5px;
     -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255, 0.4);
@@ -39,20 +32,8 @@
     background: -o-linear-gradient(top, #98B827 0%,#89a71f 50%,#98B827 100%);
     background: -ms-linear-gradient(top, #98B827 0%,#89a71f 50%,#98B827 100%);
     background: linear-gradient(to bottom, #98B827 0%,#89A71F 50%,#98B827 100%);
-
+    height: 47px;
+    width: 130px;
     text-align: center;
     color: white;
 }
-
-/*<div class="titel_border">*/
-/*<div class="img_border"></div>*/
-                          /*<h3 class="text_border">recent product</h3>*/
-                                                                  /*<div class="buttons_products">*/
-/*<div class="button_products">*/
-/*&larr;*/
-/*</div>*/
-  /*<div class="button_products">*/
-/*&rarr;*/
-/*</div>*/
-  /*</div>*/
-    /*</div>*/
