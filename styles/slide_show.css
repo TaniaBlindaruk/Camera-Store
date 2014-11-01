@@ -1,6 +1,5 @@
 .slide_show {
     height: 342px;
-    background: #ffebb6;
 }
 
 .arrow {
@@ -13,7 +12,7 @@
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 50%;
+    top: -50%;
     margin-top: -10px;
 }
 
@@ -23,4 +22,26 @@
 
 #right-arr {
     left: 980px;
+}
+
+#slider-images {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    height: 342px;
+}
+
+#slider-images > div {
+    height: 342px;
+    width: 960px;
+    background-repeat: no-repeat;
+    background-size: 960px 342px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    display: inline-block;
+    left: -1px;
 }
