@@ -26,15 +26,14 @@
 }
 
 #slider-images {
-    white-space: nowrap;
     width: 100%;
     overflow: hidden;
     background: #000;
     height: 342px;
-    position: relative;
 }
 
 #slider-images > div {
+    position: relative;
     height: 342px;
     width: 960px;
     background-repeat: no-repeat;
@@ -44,7 +43,5 @@
     border-width: 0;
     border-left-width: 1px;
     border-right-width: 1px;
-    float: left;
     left: -1px;
-    position: absolute;
 }
