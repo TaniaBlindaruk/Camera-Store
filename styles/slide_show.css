@@ -18,7 +18,7 @@
 }
 
 #left-arr {
-    left: -40px;
+    left: -46px;
     background: url(../images/slides_buttons.png) no-repeat -1px 0;
 }
 
@@ -46,8 +46,6 @@
     border-style: solid;
     border-width: 0;
     display: inline-block;
-    /*border-left-width: 1px;
-    border-right-width: 1px;*/
     left: -1px;
     background: red;
 }

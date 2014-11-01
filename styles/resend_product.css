@@ -171,3 +171,8 @@ h4{
 .not{
     display: none;
 }
+
+.cell > a {
+    background: url(../images/arrow.png) no-repeat 100% 19px;
+    padding-right: 10px;
+}
