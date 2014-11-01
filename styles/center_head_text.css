@@ -1,19 +1,18 @@
 .center_head {
-    width: 100%;
-    height: 47px;
+    height: 70px;
 }
 
 .center_head_text{
     background-color: #FFF;
     text-transform: uppercase;
     color: #000;
-    height: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border: 1px solid #eee;
     border-bottom: 1px solid #cdcdcd;
     padding: 10px 30px;
     font-size: 23px;
+    height: 47px;
     margin-bottom: 36px;
 }
 .bold{
