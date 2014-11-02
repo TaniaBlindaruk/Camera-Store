@@ -22,26 +22,31 @@
     font-size: 1.3em;
 }
 .recent_post>img{
-    width: 55px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
+    height: inherit;
+    display: table-cell;
 }
 .recent_post{
     width: 100%;
     border: 1px solid #e8e8e8;
     border-radius: 10px;
     height: 55px;
-    position: relative;
+    display: table;
 }
 .dis{
     display: inline-block;
-    vertical-align: 50%;
     padding: 4px;
     width: 150px;
-    position: absolute;
-    top: 0;
-    left: 55px;
+    vertical-align: middle;
+    height: 47px;
+    display: table-cell;
 }
-.recent_post_title{
+.recent_post_by{
+    font-size: 0.8em;
+}
+.recent_post_by>a{
+    color:  #98B827;
+}
+.recent_post_by>a:hover{
+    text-decoration: underline;
 }
