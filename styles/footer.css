@@ -156,7 +156,8 @@
 .bdown_menu {
     background: #515151;
     color: #e8e8e8;
-    height: 25px;
+    height: 30px;
+    margin: 0;
 }
 
 .down_menu {
@@ -172,7 +173,7 @@
 
 .down_menu > ul > li {
     display: inline-block;
-    line-height: 25px;
+    line-height: 30px;
     margin: 0 5px;
 }
 
@@ -182,6 +183,6 @@
 
 .copy_right {
     float: right;
-    line-height: 25px;
-    margin-right: 5px;
+    line-height: 30px;
+    margin-right: 15px;
 }
