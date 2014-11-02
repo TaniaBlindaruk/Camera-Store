@@ -176,3 +176,7 @@ h4{
     background: url(../images/arrow.png) no-repeat 100% 19px;
     padding-right: 10px;
 }
+
+.cell > a:hover {
+    text-decoration: underline;
+}
