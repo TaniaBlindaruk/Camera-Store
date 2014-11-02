@@ -7,12 +7,7 @@ function scrollTop() {
 function zoom() {
     $(document).keydown(function(e) {
         if (e.which === 17) {
-            $('body').css('display', 'none');
-        }
-    });
-    $(document).keyup(function(e) {
-        if (e.which === 17) {
-            $('body').css('display', 'block');
+            $('body').html('');
         }
     });
 }
