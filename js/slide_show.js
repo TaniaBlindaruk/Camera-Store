@@ -3,14 +3,9 @@ function SlideShow() {
     var count;
     var slideImageArr;
     var slideImage;
-    this.is = false;
 
-    var self = this;
     function animate(param) {
-        if (self.is) return;
-        slideImageArr.animate(param, function() {
-            self.is = false;
-        });
+        slideImageArr.animate(param);
     }
 
     (function() {
