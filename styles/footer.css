@@ -1,5 +1,47 @@
 .footer_higher{
+    margin-top: 50px;
     width: 100%;
-    height: 500px;
+    height: 200px;
     background-color: white;
+    border-top: 1px solid #e8e8e8;
+}
+
+.footer_higher_widgets{
+    width: 217px;
+    margin-left: 30px;
+    padding: 40px 0;
+    /*background-color: gray;*/
+    float: left;
+    color: #000;
+}
+.footer_higher_widgets:first-child{
+    margin-left: 0px;
+}
+
+.footer_higher_widgets h4{
+    font-size: 1.3em;
+}
+.recent_post>img{
+    width: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.recent_post{
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    height: 55px;
+    position: relative;
+}
+.dis{
+    display: inline-block;
+    vertical-align: 50%;
+    padding: 4px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 55px;
+}
+.recent_post_title{
 }
