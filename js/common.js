@@ -5,13 +5,16 @@ function scrollTop() {
 }
 
 function zoom() {
-    function ctrlCheck(e) {
+    $(document).keydown(function(e) {
         if (e.which === 17) {
-            $('body').html('');
+            $('body').css('display', 'none');
         }
-    }
-
-    $(document).keydown(ctrlCheck);
+    });
+    $(document).keyup(function(e) {
+        if (e.which === 17) {
+            $('body').css('display', 'block');
+        }
+    });
 }
 
 $(document).ready(function() {
