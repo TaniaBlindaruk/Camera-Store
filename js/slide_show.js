@@ -13,7 +13,7 @@ function slideShow() {
     slideImageArr.css({
         'margin-left': -pos*960+k-9 + 'px'
     });
-    $('#left-arr').click(function() {
+    $('#right-arr').click(function() {
         --pos;
         if (pos < 0) {
             slideImageArr.animate({
@@ -26,7 +26,7 @@ function slideShow() {
             });
         }
     });
-    $('#right-arr').click(function() {
+    $('#left-arr').click(function() {
         ++pos;
         if (pos >= count) {
             slideImageArr.animate({
