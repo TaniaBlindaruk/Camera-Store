@@ -41,7 +41,11 @@
     height: 47px;
     display: table-cell;
 }
-.recent_post_by{
+
+.recent_post_title{
+    white-space: nowrap;
+}
+.recent_post_by,.contact{
     font-size: 0.8em;
 }
 .recent_post_by>a{
