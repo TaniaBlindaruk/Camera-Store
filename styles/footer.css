@@ -1,9 +1,13 @@
 .footer_higher{
     margin-top: 50px;
-    width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: white;
     border-top: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.footer_higher > div {
+    position: relative;
 }
 
 .footer_higher_widgets{
@@ -15,7 +19,7 @@
     color: #000;
 }
 .footer_higher_widgets:first-child{
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .footer_higher_widgets h4{
@@ -57,4 +61,122 @@
 
 .recent_post_by>a:hover{
     text-decoration: underline;
+}
+
+.footer_higher_widgets > .social_buttons > ul > li {
+    height: 40px;
+    width: 40px;
+}
+
+.footer_logo {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer_logo > img {
+    width: 240px;
+    height: 50px;
+}
+
+.social_buttons > h4 {
+    margin: 5px;
+}
+
+#top {
+    position: absolute;
+    top: -20px;
+    left: 100%;
+    margin-left: -50px;
+    height: 40px;
+    width: 40px;
+}
+
+#top > span {
+    display: block;
+    height: 14px;
+    width: 28px;
+    background-image: url(../images/top_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 28px 14px;
+}
+
+.comments > div {
+    float: left;
+}
+
+.bpeople, .bpeople_name, .bpeople_message {
+    height: 80px;
+}
+
+.bpeople {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.bpeople_name {
+    position: relative;
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.bpeople_message {
+    width: 180px;
+    float: left;
+}
+
+.bpeople_avatar {
+    text-align: center;
+}
+
+.avatar_border > img {
+    border-radius: 25px;
+    border: 4px solid #c5c5c5;
+    height: 50px;
+    width: 50px;
+}
+
+.people_massage {
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 9.5pt;
+    padding: 5px;
+    max-height: 70px;
+    width: 170px;
+    background : url(../images/comment_bg.png) no-repeat bottom 10px right 10px;
+    background-size: 20px 15px;
+}
+
+.bdown_menu {
+    background: #515151;
+    color: #e8e8e8;
+    height: 25px;
+}
+
+.down_menu {
+    float: left;
+}
+
+.down_menu > ul {
+    white-space: nowrap;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.down_menu > ul > li {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.down_menu > ul > li > a {
+    color: #e8e8e8;
+}
+
+.copy_right {
+    float: right;
+    line-height: 25px;
 }

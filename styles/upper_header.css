@@ -112,8 +112,9 @@ span[class="upper-contact-menu"] {
     height: 40px;
     width: 40px;
     background-position: -219px -1px;
-    top: 10px;
     position: relative;
+    top: -1px;
+    box-shadow: none;
 }
 
 #search-input, #search-button {
@@ -131,8 +132,11 @@ span[class="upper-contact-menu"] {
 
 .social_buttons > ul > li {
     margin-left: 3px;
-    border: 1px solid #E7E7E7;
-    border-bottom-color: #D9D9D9;
     height: 38px;
     width: 38px;
+}
+
+#search-button, .social_buttons > ul > li {
+    border: 1px solid #E7E7E7;
+    border-bottom-color: #D9D9D9;
 }

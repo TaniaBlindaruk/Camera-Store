@@ -1,3 +1,10 @@
+function scrollTop() {
+    $('#top').click(function() {
+        $("html, body").animate({scrollTop:0}, '500', 'swing');
+    });
+}
+
 $(document).ready(function() {
-    slideShow();
+    scrollTop();
+    new SlideShow();
 });

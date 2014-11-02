@@ -55,24 +55,9 @@
 }
 
 #button-card {
-    display: block;
-    vertical-align: middle;
-    border-radius: 5px;
-    -moz-box-shadow: inset 0 0 0 1px rgba(255,255,255, 0.4);
-    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
-    border: 1px solid #7A9A0B;
-    background: #98B827;
-    background: -moz-linear-gradient(top, #98B827 0%, #89a71f 50%, #98B827 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#98B827), color-stop(50%,#89A71F), color-stop(100%,#98B827));
-    background: -webkit-linear-gradient(top, #98B827 0%,#89A71F 50%,#98B827 100%);
-    background: -o-linear-gradient(top, #98B827 0%,#89a71f 50%,#98B827 100%);
-    background: -ms-linear-gradient(top, #98B827 0%,#89a71f 50%,#98B827 100%);
-    background: linear-gradient(to bottom, #98B827 0%,#89A71F 50%,#98B827 100%);
     height: 40px;
     width: 110px;
     text-align: right;
-    color: white;
 }
 
 .button_card_text {

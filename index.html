@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
@@ -16,6 +16,7 @@
     <script type="text/javascript" src="./js/common.js"></script>
 </head>
 <body>
+<header>
 <div class="header">
     <div class="top_line"></div>
     <div class="bheader_menu">
@@ -46,7 +47,7 @@
             <div class="blogo_and_search_va">
                 <div class="blogo">
                     <a href="">
-                        <img src="images/logo.png" alt="Logo">
+                        <img src="images/logo.png" alt="Logo" />
                     </a>
                 </div>
                 <div class="bsearch">
@@ -68,6 +69,8 @@
         </div>
     </div>
 </div>
+</header>
+<nav>
 <div class="head_menu">
     <div class="center head_menu_bg">
         <div class="bmenu">
@@ -89,14 +92,17 @@
         </div>
     </div>
 </div>
+</nav>
 
 <div class="slide_show margin_top_big_block">
     <div id="slider-images">
-        <div style="background-image: url(images/slideshowImage5.jpg)"></div>
-        <div style="background-image: url(images/slideshowImage2.jpg)"></div>
-        <div style="background-image: url(images/slideshowImage11.jpg)"></div>
-        <div style="background-image: url(images/slideshowImage3.jpg)"></div>
-        <div style="background-image: url(images/slideshowImage4.jpg)"></div>
+        <div class="slider_center">
+        <div style="background-image: url(images/slideshowImage5.jpg)"></div><!--
+        --><div style="background-image: url(images/slideshowImage2.jpg)"></div><!--
+        --><div style="background-image: url(images/slideshowImage11.jpg)"></div><!--
+        --><div style="background-image: url(images/slideshowImage3.jpg)"></div><!--
+        --><div style="background-image: url(images/slideshowImage4.jpg)"></div>
+        </div>
     </div>
     <div class="center arrow">
         <div id="left-arr"></div>
@@ -113,7 +119,8 @@
     </div>
 </div>
 
-<div class="resend_product center margin-top-big-block">
+<section>
+<div class="resend_product center margin_top_big_block">
     <div class="bname">
         <div class="bh3_header">
             <div class="name_line"></div>
@@ -215,8 +222,10 @@
         </div>
     </div>
 </div>
+</section>
 
-<div class="resend_product center margin-top-big-block">
+<section>
+<div class="resend_product center margin_top_big_block">
     <div class="bname">
         <div class="bh3_header">
             <div class="name_line"></div>
@@ -319,7 +328,10 @@
         </div>
     </div>
 </div>
-<div class="resend_product center margin-top-big-block">
+</section>
+
+<section>
+<div class="resend_product center margin_top_big_block">
     <div class="bname">
         <div class="bh3_header">
             <div class="name_line"></div>
@@ -348,11 +360,36 @@
         </div>
     </div>
 </div>
+</section>
+
+<div class="bdown_menu">
+    <div class="top_line"></div>
+    <div class="bdown_menu">
+        <div class="center">
+            <div class="down_menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SITEMAP</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="copy_right">
+                Camera Store &copy by PremiumCoding | All Rigth Reserved
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
-<div class="footer_higher">
-    <div  class="center" >
-        <div class="footer_higher_widgets">
+<div class="footer_higher margin_top_big_block">
+    <div class="center">
+        <div class="footer_higher_widgets" style="width: 240px">
+            <div class="footer_logo">
+                <img src="images/logo.png" alt="Logo" />
+            </div>
             <div class="social_buttons">
+                <h4>Follow Us</h4>
                 <ul>
                     <li style="background-position: 1px -41px;"></li>
                     <li style="background-position: -44px -40px"></li>
@@ -383,27 +420,72 @@
             </div>
         </div>
 
-        <div class="footer_higher_widgets">
+        <div class="footer_higher_widgets" style="width: 150px">
             <h4>Contact</h4>
             <div class="contact">
-               <br/>
-            1000 Ljubljana<br/>
-            Celovska cesta 135<br/>
-            Country Slovenia<br/><br/>
+                <br/>
+                1000 Ljubljana<br/>
+                Celovska cesta 135<br/>
+                Country Slovenia<br/><br/>
 
-            Phone: (+386) 40 123 456<br/>
-            Mobile: (+386) 40 654 123<br/><br/>
+                Phone: (+386) 40 123 456<br/>
+                Mobile: (+386) 40 654 123<br/><br/>
 
-            info@premiumcoding.com<br/>
+                info@premiumcoding.com<br/>
             </div>
         </div>
-        <div class="footer_higher_widgets">
+        <div class="footer_higher_widgets" style="width: 250px">
             <h4>What People Say</h4>
-            <div class="coments">
-                <div>
-
+            <div class="comments">
+                <div class="bpeople">
+                    <div class="bpeople_name">
+                        <div class="bpeople_avatar">
+                            <div class="avatar_border">
+                                <img src="images/admin_avatar.png" alt="avatar" />
+                            </div>
+                        </div>
+                        ADMIN
+                    </div>
+                    <div class="bpeople_message">
+                        <div class="people_massage">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu elementum nibh.
+                        </div>
+                    </div>
                 </div>
-
+                <div class="bpeople">
+                    <div class="bpeople_name">
+                        <div class="bpeople_avatar">
+                            <div class="avatar_border">
+                                <img src="images/admin_avatar.png" alt="avatar" />
+                            </div>
+                        </div>
+                        ERICA
+                    </div>
+                    <div class="bpeople_message">
+                        <div class="people_massage">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu elementum nibh.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="top"><span></span></button>
+    </div>
+</div>
+<div class="bdown_menu">
+    <div class="top_line"></div>
+    <div class="bdown_menu">
+        <div class="center">
+            <div class="down_menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SITEMAP</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="copy_right">
+                Camera Store &copy by PremiumCoding | All Rigth Reserved
             </div>
         </div>
     </div>
