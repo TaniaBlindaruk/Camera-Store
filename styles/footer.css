@@ -170,6 +170,7 @@
 .down_menu > ul > li {
     display: inline-block;
     line-height: 25px;
+    margin: 0 5px;
 }
 
 .down_menu > ul > li > a {
