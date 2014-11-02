@@ -1,13 +1,13 @@
-.top-line, .bheader-menu {
+.top_line, .bheader_menu {
     width: 100%;
 }
 
-.top-line {
+.top_line {
     background-color: #98b827;
     height: 3px;
 }
 
-.bheader-menu {
+.bheader_menu {
     background-color: #FFF;
     height: 25px;
     border-style: solid;
@@ -16,54 +16,58 @@
     border-bottom-width: 1px;
 }
 
-.bleft-header-menu {
+.bleft_header_menu {
     float: left;
     margin-left: 5px;
     line-height: 25px;
 }
 
-.bright-header-menu {
+.bright_header_menu {
     float: right;
     margin-right: 5px;
 }
 
-.bright-header-menu > ul, .social-buttons > ul {
+.bright_header_menu > ul, .social_buttons > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.bright-header-menu > ul > li, .social-buttons > ul > li {
+.bright_header_menu > ul > li, .social_buttons > ul > li {
     display: inline-block;
     line-height: 25px;
 }
 
-.bleft-header-menu > * > a {
+.bleft_header_menu > * > a {
     color: #98B827;
+}
+
+.bleft_header_menu > span {
+    margin-right: 15px;
 }
 
 span[class="upper-contact-menu"] {
     margin-left: 30px;
 }
 
-.right-header-menu-delim {
+.right_header_menu_delim {
     margin: 0 5px;
 }
 
-.blogo-and-search {
+.blogo_and_search {
     width: 100%;
     height: 130px;
     position: relative;
 }
 
-.blogo-and-search-va {
+.blogo_and_search_va {
     position: absolute;
     top: 50%;
     margin-top: -29px;
     height: 58px;
 }
 
-.blogo-and-search-va {
+.blogo_and_search_va {
     width: 100%;
 }
 
@@ -96,33 +100,39 @@ span[class="upper-contact-menu"] {
     height: 100%;
 }
 
-#searchInput {
+#search-input {
     border-radius: 5px 0 0 5px;
     height: 28px;
     width: 170px;
 }
 
-#searchButton {
+#search-button {
     margin: 0;
     margin-left: -7px;
     height: 40px;
     width: 40px;
+    background-position: -219px -1px;
+    top: 10px;
+    position: relative;
 }
 
-#searchInput, #searchButton {
+#search-input, #search-button {
     padding: 5px;
 }
 
-.top-menu-button, .social-buttons > ul > li {
+.top_menu_button, .social_buttons > ul > li {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #cfcfcf;
+    cursor: pointer;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../images/social_icons.png);
 }
 
-.social-buttons > ul > li {
+.social_buttons > ul > li {
     margin-left: 3px;
     border: 1px solid #E7E7E7;
     border-bottom-color: #D9D9D9;
     height: 38px;
     width: 38px;
-    cursor: pointer;
 }

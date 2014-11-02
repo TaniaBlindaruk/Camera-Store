@@ -2,9 +2,10 @@
     height: 68px;
 }
 
-.head-menu-bg {
+.head_menu_bg {
     background-image: url(../images/head_menu_bg.png);
     position: relative;
+    height: 64px;
 }
 
 .bmenu {
@@ -42,18 +43,18 @@
     display: block;
 }
 
-.bbutton-card {
+.bbutton_card {
     float: right;
     height:100%;
     display:table;
 }
 
-.bbutton-card-v {
+.bbutton_card_v {
     display: table-cell;
     vertical-align: middle;
 }
 
-#buttonCard {
+#button-card {
     display: block;
     vertical-align: middle;
     border-radius: 5px;
@@ -74,7 +75,7 @@
     color: white;
 }
 
-.button-card-text {
+.button_card_text {
     display: block;
     line-height: 40px;
     background: url(../images/cart.png) no-repeat 3px 7px;

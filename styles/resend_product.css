@@ -93,7 +93,6 @@
 }
 .cell:first-child{
     margin: 0;
-    margin-left: 0px;
 }
 .imgs{
     position: relative;

@@ -40,18 +40,21 @@
     width: 150px;
     vertical-align: middle;
     height: 47px;
-    display: table-cell;
+    /*display: table-cell;*/
 }
 
 .recent_post_title{
     white-space: nowrap;
 }
+
 .recent_post_by,.contact{
     font-size: 0.8em;
 }
+
 .recent_post_by>a{
     color:  #98B827;
 }
+
 .recent_post_by>a:hover{
     text-decoration: underline;
 }
